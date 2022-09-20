@@ -1,0 +1,3 @@
+firstName,lastName,email,password,userType,region,district
+Atharva,Kasar,a@a.com,hello,type1,philly,upenn
+Rohil,Sheth,bigdummy@dummydata.com,dummy,dummyUser,dummyRegion,dummyLit
