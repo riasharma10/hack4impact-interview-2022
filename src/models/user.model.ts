@@ -11,6 +11,7 @@ interface IUser extends mongoose.Document {
   userType: string;
   region: string;
   district: string;
+  address: string;
   refreshToken: string;
 }
 
@@ -24,6 +25,7 @@ const UserSchema = new Schema({
   userType: { type: String, required: false },
   region: { type: String, required: false },
   district: { type: String, required: false },
+  address: { type: String, required: false },
   refreshToken: { type: String, required: false },
 });
 

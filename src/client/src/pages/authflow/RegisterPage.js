@@ -17,7 +17,8 @@ function RegisterPage() {
       /* 
       TASK 6
       */
-      await api.post('/api/users/____', ______);
+      console.log(values);
+      await api.post('/api/users/signup', values);
       await auth.login(values.email, values.password);
     } catch (error) {
       const { message, code } =

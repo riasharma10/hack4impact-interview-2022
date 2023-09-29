@@ -42,9 +42,9 @@ const AdminUserManagementPage = () => {
       console.log(res);
       console.log(res.data);
       setRows(
-        res.data.map((user) => ({
+        res.data.result.map((user) => ({
           id: user._id,
-          type: user.type,
+          type: user.userType,
           name: user.firstName + ' ' + user.lastName,
           email: user.email,
         }))

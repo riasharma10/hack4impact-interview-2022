@@ -26,6 +26,7 @@ router.post('/signup', async (req, res) => {
   const { password } = req.body;
   const { userType } = req.body;
   const { region } = req.body;
+  const { address } = req.body;
   const { district } = req.body;
 
   if (await User.findOne({ email })) {
@@ -45,6 +46,7 @@ router.post('/signup', async (req, res) => {
       password: hashedPassword,
       userType: 'Admin',
       region,
+      address,
       district,
     });
 

@@ -19,6 +19,7 @@ const rows = [
   { name: 'Eclair', calories: 262, fat: 16.0, carbs: 24, protein: 6.0 },
   { name: 'Cupcake', calories: 305, fat: 3.7, carbs: 67, protein: 4.3 },
   { name: 'Gingerbread', calories: 356, fat: 16.0, carbs: 49, protein: 3.9 },
+  { name: 'Cake', calories: 356, fat: 16.0, carbs: 49, protein: 3.9 },
 ];
 
 /*TASK 2 and TASK 3*/

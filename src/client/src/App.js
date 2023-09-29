@@ -62,7 +62,7 @@ function App() {
                   path="/adminUser"
                   component={AdminUserManagementPage}
                 />
-                <PrivateRoute exact path="/table" component={TablePage} />
+                <PublicRoute exact path="/table" component={TablePage} />
                 <Route exact={false} component={NotFoundPage} />
               </Switch>
             </main>

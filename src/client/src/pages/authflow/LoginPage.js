@@ -105,7 +105,10 @@ function LoginPage() {
       {/* 
       TASK 1
       */}
-      <Formik initialValues={{ email: '', password: '' }}>
+      <Formik
+        initialValues={{ email: '', password: '' }}
+        onSubmit={handleSubmit}
+      >
         {({ errors, isSubmitting }) => (
           <Form>
             <FieldWrapper icon="fa-user">

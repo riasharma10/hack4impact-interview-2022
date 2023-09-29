@@ -6,7 +6,7 @@ import userRouter from '../routes/user.api';
 
 const createServer = (): express.Express => {
   const app = express();
-  app.set('port', process.env.PORT || 5000);
+  app.set('port', process.env.PORT || 5001);
   app.use(bodyParser.json());
   app.use(bodyParser.urlencoded({ extended: true }));
   app.use(cors());
